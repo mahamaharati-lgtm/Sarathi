@@ -48,6 +48,11 @@ support, a boot sequence, haptics, and synthesized UI sounds.
 **Content:** 100 Gita shlokas (Sanskrit, IAST, and plain English), 150
 original quotes, 13 chimes, 8 OFL fonts.
 
+**History:** 2.0.0 (versionCode 7) also shipped an on-device LLM: llama.cpp
+as an 11 MB arm64 `libllama_server.so`. 2.1 removed it and added a "Model
+cleanup" screen, which is why its APK shrank from 8.1 MB to 3.5 MB. Both
+releases are signed with the same key.
+
 ## Findings to fix
 
 1. **SDK mismatch.** The app targets 36 but compiles against 34. On Android
