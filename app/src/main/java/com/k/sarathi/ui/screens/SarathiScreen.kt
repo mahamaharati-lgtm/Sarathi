@@ -203,7 +203,7 @@ fun SarathiScreen() {
                 }
             }
         }
-        Spacer(Modifier.height(80.dp))
+        Spacer(Modifier.height(18.dp))
     }
 }
 

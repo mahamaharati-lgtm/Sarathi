@@ -128,14 +128,18 @@ releases are signed with the same key.
 
 ## Status
 
-- **Toolchain verified** in the cloud environment: Android SDK 36,
-  AGP 8.13.2, Kotlin 2.4.21, and an R8 release build all work.
-- **Blocked on two inputs from the 2.1 chat:**
-  - **The source code.** An APK is compiled output and can't be edited back
-    into Kotlin.
-  - **The signing keystore** for "Sarathi Debug". Without it, Android rejects
-    2.2 as an update, so 2.1 must be uninstalled, and its data is lost unless
-    it is exported first with Systems → Backup (`allowBackup` is false).
+The 2.1 source and signing key were not available, so this plan was carried
+out as a ground-up rebuild: **Sarathi 3.0** (`com.k.sarathi3`, Kotlin and
+Jetpack Compose). It installs next to 2.x. See [README.md](README.md) and
+[CHANGELOG.md](CHANGELOG.md).
+
+- **Done:**
+  - Foundation (Gradle, compileSdk 36, R8, CI, tests).
+  - Every UI/UX item in section B.
+  - Every feature in section C.
+  - The model update, and a new release signing key.
+- **Not carried over yet:** wake word, calls and SMS, music control, Notion
+  sync, UPI auto-logging, markets, translate, app lock, notification digest.
 
 ## Order of work
 

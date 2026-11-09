@@ -2,6 +2,7 @@ package com.k.sarathi.ui
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.AccountBalanceWallet
+import androidx.compose.material.icons.rounded.AutoAwesome
 import androidx.compose.material.icons.rounded.AutoStories
 import androidx.compose.material.icons.rounded.Checklist
 import androidx.compose.material.icons.rounded.Dashboard
@@ -9,7 +10,7 @@ import androidx.compose.material.icons.rounded.EditNote
 import androidx.compose.material.icons.rounded.GridView
 import androidx.compose.material.icons.rounded.Insights
 import androidx.compose.material.icons.rounded.LocalFireDepartment
-import androidx.compose.material.icons.rounded.MenuBook
+import androidx.compose.material.icons.automirrored.rounded.MenuBook
 import androidx.compose.material.icons.rounded.Settings
 import androidx.compose.material.icons.rounded.Timer
 import androidx.compose.material.icons.rounded.WbSunny
@@ -34,7 +35,7 @@ object Routes {
         RouteInfo("plan", "Plan", Icons.Rounded.Checklist),
         RouteInfo("habits", "Habits", Icons.Rounded.LocalFireDepartment),
         RouteInfo("money", "Money", Icons.Rounded.AccountBalanceWallet),
-        RouteInfo("gita", "Gita", Icons.Rounded.MenuBook),
+        RouteInfo("gita", "Gita", Icons.AutoMirrored.Rounded.MenuBook),
         RouteInfo("notes", "Notes", Icons.Rounded.EditNote),
         RouteInfo("journal", "Journal", Icons.Rounded.AutoStories),
         RouteInfo("focus", "Focus", Icons.Rounded.Timer),
@@ -47,7 +48,8 @@ object Routes {
     val hud = RouteInfo("hud", "HUD", Icons.Rounded.Dashboard)
     val more = RouteInfo("more", "More", Icons.Rounded.GridView)
     val settings = RouteInfo("settings", "Settings", Icons.Rounded.Settings)
-    fun info(route: String) = (modules + hud + more + settings).firstOrNull { it.route == route }
+    val sarathi = RouteInfo("sarathi", "Sarathi", Icons.Rounded.AutoAwesome)
+    fun info(route: String) = (modules + hud + more + settings + sarathi).firstOrNull { it.route == route }
 }
 
 /** Current time, refreshed at each minute boundary (or every [periodMs]). */

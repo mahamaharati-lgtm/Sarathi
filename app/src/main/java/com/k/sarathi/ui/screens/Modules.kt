@@ -107,7 +107,7 @@ fun FocusScreen() {
     }
 
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(start = 16.dp, end = 16.dp, bottom = 120.dp), horizontalAlignment = Alignment.CenterHorizontally) {
-        item { ScreenHeader("Focus", onBack = if (e.nav.isTab("focus")) null else ({ e.nav.back() }), subtitle = "${todaySessions.sumOf { it.minutes }} min today · ${todaySessions.count { it.completed }} sessions", modifier = Modifier.padding(start = 0.dp)) }
+        item { ScreenHeader("Focus", onBack = if (e.nav.isTab("focus")) null else ({ e.nav.back() }), subtitle = todaySessions.count { it.completed }.let { n -> "${todaySessions.sumOf { it.minutes }} min today · $n ${if (n == 1) "session" else "sessions"}" }, modifier = Modifier.padding(start = 0.dp)) }
         item {
             Spacer(Modifier.height(10.dp))
             val color = if (f.phase == FocusPhase.BREAK) c.good else c.accent

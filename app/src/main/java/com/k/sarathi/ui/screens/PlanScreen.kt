@@ -266,7 +266,7 @@ private fun HabitCard(h: Habit, today: LocalDate, onOpen: () -> Unit) {
             Column(Modifier.weight(1f)) {
                 Text(h.name, style = Sar.t.bodyStrong, color = c.text)
                 Text(
-                    if (atRisk) "Streak at risk — still time today" else "Best ${Streaks.best(h)}d · ${(Streaks.rate(h, today) * 100).roundToInt()}% this month",
+                    if (atRisk) "Streak at risk — still time today" else "Best ${Streaks.best(h)}d · ${(Streaks.rate(h, today) * 100).roundToInt()}% last 30 days",
                     style = Sar.t.small, color = if (atRisk) c.warn else c.textDim,
                 )
             }

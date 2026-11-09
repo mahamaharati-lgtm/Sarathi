@@ -321,9 +321,9 @@ private fun TimelineTask(t: TaskItem, overdue: Boolean, now: ZonedDateTime, onTo
     }
     val meta = buildList {
         if (overdue && t.due != null) add(whenLabel(t.due.toZoned(zone), t.allDay, s.use24h))
-        if (t.remind) add("Reminder")
         if (t.recur != Recur.NONE) add(t.recur.name.lowercase())
-        if (t.priority == Priority.HIGH) add("High")
+        if (t.priority == Priority.HIGH) add("High priority")
+        if (isEmpty() && t.remind) add("Reminder")
     }.joinToString(" · ")
     Row(
         Modifier.fillMaxWidth().clip(RoundedCornerShape(12.dp)).tapAndHold(onClick = onOpen, onLongClick = onSnooze).heightIn(min = 56.dp).padding(horizontal = 10.dp, vertical = 8.dp),

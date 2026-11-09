@@ -71,7 +71,13 @@ android {
     testOptions {
         unitTests {
             isIncludeAndroidResources = true
-            all { it.systemProperty("robolectric.pixelCopyRenderMode", "hardware") }
+            all {
+                it.systemProperty("robolectric.pixelCopyRenderMode", "hardware")
+                // Robolectric's own downloader can't reach Maven here; Gradle fetches the jar instead.
+                it.systemProperty("robolectric.offline", "true")
+                it.systemProperty("robolectric.dependency.dir", rootProject.file("app/build/robolectric-jars").absolutePath)
+                it.dependsOn("copyRobolectricJars")
+            }
         }
     }
 
@@ -90,6 +96,13 @@ kotlin {
             "-opt-in=androidx.compose.foundation.ExperimentalFoundationApi",
         )
     }
+}
+
+val robolectricRuntime: Configuration by configurations.creating
+
+tasks.register<Copy>("copyRobolectricJars") {
+    from(robolectricRuntime)
+    into(layout.buildDirectory.dir("robolectric-jars"))
 }
 
 roborazzi {
@@ -121,6 +134,7 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.11.0")
     testImplementation("org.robolectric:robolectric:4.17")
+    robolectricRuntime("org.robolectric:android-all-instrumented:15-robolectric-13954326-i7")
     testImplementation("io.github.takahirom.roborazzi:roborazzi:1.78.0")
     testImplementation("io.github.takahirom.roborazzi:roborazzi-compose:1.78.0")
     testImplementation("androidx.compose.ui:ui-test-junit4")

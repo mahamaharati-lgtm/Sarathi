@@ -1,0 +1,62 @@
+name: Android
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Use the release signing key when it is configured
+        env:
+          KEYSTORE_BASE64: ${{ secrets.SARATHI_KEYSTORE_BASE64 }}
+        run: |
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/sarathi-release.jks"
+            echo "SARATHI_KEYSTORE=$RUNNER_TEMP/sarathi-release.jks" >> "$GITHUB_ENV"
+          else
+            echo "No signing secret: the release APK is signed with the debug key."
+          fi
+
+      - name: Unit tests and screenshot tests
+        run: ./gradlew :app:testDebugUnitTest
+
+      - name: Build release APK
+        env:
+          SARATHI_KEYSTORE_PASSWORD: ${{ secrets.SARATHI_KEYSTORE_PASSWORD }}
+          SARATHI_KEY_ALIAS: ${{ secrets.SARATHI_KEY_ALIAS }}
+          SARATHI_KEY_PASSWORD: ${{ secrets.SARATHI_KEY_PASSWORD }}
+        run: |
+          ./gradlew :app:assembleRelease
+          VERSION=$(grep -oP 'versionName = "\K[^"]+' app/build.gradle.kts)
+          cp app/build/outputs/apk/release/app-release.apk "Sarathi-v$VERSION.apk"
+          echo "APK=Sarathi-v$VERSION.apk" >> "$GITHUB_ENV"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sarathi-apk
+          path: ${{ env.APK }}
+
+      - name: Publish release for version tags
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ${{ env.APK }}
+          body_path: CHANGELOG.md
