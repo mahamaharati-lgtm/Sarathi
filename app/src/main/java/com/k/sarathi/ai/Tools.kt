@@ -55,6 +55,8 @@ interface Device {
     fun createEvent(title: String, start: ZonedDateTime, end: ZonedDateTime, location: String): String
     fun open(route: String)
     fun startFocus(minutes: Int, label: String): String
+    fun startBreak(minutes: Int): String
+    fun stopFocus(completed: Boolean)
 }
 
 data class ToolOutcome(val content: String, val isError: Boolean = false, val card: ToolCard? = null)

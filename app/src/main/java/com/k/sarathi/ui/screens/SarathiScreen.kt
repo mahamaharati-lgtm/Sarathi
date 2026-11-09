@@ -1,5 +1,8 @@
 package com.k.sarathi.ui.screens
 
+import android.Manifest
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
@@ -107,13 +110,21 @@ fun SarathiScreen() {
         input = ""
         e.bus.chatDraft = ""
     }
+    val micPermission = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { granted ->
+        if (granted) e.voice.listen { said -> send(said, fromVoice = true) }
+        else e.bus.snack("Sarathi needs the microphone to hear you", "Settings") { e.platform.openAppSettings() }
+    }
+    fun startListening() {
+        if (e.platform.hasPermission(Manifest.permission.RECORD_AUDIO)) e.voice.listen { said -> send(said, fromVoice = true) }
+        else runCatching { micPermission.launch(Manifest.permission.RECORD_AUDIO) }
+    }
     fun mic() {
         haptic.performHapticFeedback(HapticFeedbackType.SegmentTick)
-        if (voice.listening) e.voice.stopListening() else e.voice.listen { said -> send(said, fromVoice = true) }
+        if (voice.listening) e.voice.stopListening() else startListening()
     }
 
     LaunchedEffect(Unit) {
-        if (e.bus.listenOnOpen) { e.bus.listenOnOpen = false; e.voice.listen { said -> send(said, fromVoice = true) } }
+        if (e.bus.listenOnOpen) { e.bus.listenOnOpen = false; startListening() }
     }
     LaunchedEffect(messages.size, chat.streaming.length / 40, chat.busy) {
         val total = messages.size + (if (chat.busy) 1 else 0)

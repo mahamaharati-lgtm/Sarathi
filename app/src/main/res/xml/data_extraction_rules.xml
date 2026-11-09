@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Personal data and the encrypted API key stay on the device; use Settings → Backup instead. -->
+<data-extraction-rules>
+    <cloud-backup><exclude domain="root" /><exclude domain="file" /><exclude domain="sharedpref" /><exclude domain="database" /></cloud-backup>
+    <device-transfer><exclude domain="sharedpref" path="vault.xml" /></device-transfer>
+</data-extraction-rules>

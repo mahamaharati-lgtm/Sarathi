@@ -195,6 +195,8 @@ class FakeDevice : Device {
     override fun createEvent(title: String, start: ZonedDateTime, end: ZonedDateTime, location: String) = "Opened calendar"
     override fun open(route: String) { log += "open $route" }
     override fun startFocus(minutes: Int, label: String) = "Focus".also { log += "focus $minutes" }
+    override fun startBreak(minutes: Int) = "Break".also { log += "break $minutes" }
+    override fun stopFocus(completed: Boolean) { log += "stop $completed" }
 }
 
 /** Plays back scripted turns and records the requests it received. */

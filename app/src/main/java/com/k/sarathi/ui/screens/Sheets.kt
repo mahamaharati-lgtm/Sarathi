@@ -363,3 +363,39 @@ fun ChipToggleRow(options: List<Pair<String, Boolean>>, onPick: (Int) -> Unit) {
         options.forEachIndexed { i, (label, sel) -> Pill(label, selected = sel, onClick = { onPick(i) }) }
     }
 }
+
+private val reAmount = Regex("""(?:₹|rs\.?|inr)\s*([\d,]+(?:\.\d{1,2})?)""", RegexOption.IGNORE_CASE)
+
+/** Text shared into Sarathi from another app (share sheet or text selection). */
+@Composable
+fun SharedSheet(text: String, onDismiss: () -> Unit) {
+    val e = env
+    val c = Sar.c
+    val cur = e.repo.db.settings.currency
+    val amount = remember(text) { reAmount.find(text)?.groupValues?.get(1)?.replace(",", "")?.toDoubleOrNull() }
+    SarSheet(onDismiss) {
+        Text("Shared with Sarathi", style = Sar.t.title, color = c.text)
+        Text(text.take(400), style = Sar.t.small, color = c.textDim, maxLines = 6, modifier = Modifier.padding(vertical = 10.dp))
+        Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+            PrimaryButton("Ask Sarathi", Modifier.fillMaxWidth()) { e.bus.chatDraft = text; e.nav.go("sarathi"); onDismiss() }
+            if (amount != null && amount > 0) GhostButton("Log ${Money.fmt(amount, cur)} expense", Modifier.fillMaxWidth()) {
+                val note = text.lineSequence().first().take(48)
+                val x = e.repo.logExpense(amount, Commands.categoryFor(text), note)
+                e.bus.undo("${x.category.emoji} ${Money.fmt(amount, cur)} logged") { e.repo.deleteExpense(x.id) }
+                onDismiss()
+            }
+            GhostButton("Save as note", Modifier.fillMaxWidth()) {
+                val n = e.repo.addNote(text.lineSequence().first().take(48), text)
+                e.bus.snack("Note saved", "Open") { e.nav.go("note/${n.id}") }
+                onDismiss()
+            }
+            GhostButton("Add as task", Modifier.fillMaxWidth()) {
+                val tm = TimeParse.find(text, e.repo.clock.now())
+                e.repo.addTask((tm?.rest ?: text).take(120).replaceFirstChar { it.uppercase() }, tm?.at?.toInstant()?.toEpochMilli(), tm?.hasTime == false, tm?.hasTime == true)
+                e.bus.snack("Task added")
+                onDismiss()
+            }
+        }
+        Spacer(Modifier.height(8.dp))
+    }
+}

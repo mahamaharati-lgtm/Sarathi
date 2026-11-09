@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Sarathi" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/boot_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.Sarathi.Translucent" parent="android:Theme.Translucent.NoTitleBar" />
+    <color name="boot_bg">#0D0906</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sarathi</string>
+    <string name="ask_sarathi">Ask Sarathi</string>
+    <string name="tile_voice">Ask Sarathi</string>
+    <string name="tile_expense">Quick expense</string>
+    <string name="widget_shloka">Shloka of the day</string>
+    <string name="widget_today">Sarathi · Today</string>
+</resources>

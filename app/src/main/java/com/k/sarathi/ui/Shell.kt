@@ -61,7 +61,10 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.hapticfeedback.HapticFeedback
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
+import androidx.compose.runtime.rememberUpdatedState
+import com.k.sarathi.ui.screens.SharedSheet
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.contentDescription
@@ -98,12 +101,24 @@ import com.k.sarathi.ui.theme.SarathiTheme
 import kotlinx.coroutines.launch
 
 @Composable
-fun SarathiRoot(e: AppEnv) {
+fun SarathiRoot(e: AppEnv, onFeedback: (confirm: Boolean) -> Unit = {}) {
     val db by e.repo.store.state.collectAsState()
     val now = rememberNow({ e.repo.clock.now() })
     val palette = Palettes.resolve(db.settings.theme, now.toLocalTime(), db.settings.dayThemeInDaylight)
+    val base = LocalHapticFeedback.current
+    val hapticsOn by rememberUpdatedState(db.settings.haptics)
+    val feedback by rememberUpdatedState(onFeedback)
+    // Haptics follow the setting, and confirmations get a soft sound.
+    val haptics = remember(base) {
+        object : HapticFeedback {
+            override fun performHapticFeedback(hapticFeedbackType: HapticFeedbackType) {
+                if (hapticsOn) base.performHapticFeedback(hapticFeedbackType)
+                if (hapticFeedbackType == HapticFeedbackType.Confirm) feedback(true)
+            }
+        }
+    }
     SarathiTheme(palette) {
-        CompositionLocalProvider(LocalEnv provides e) {
+        CompositionLocalProvider(LocalEnv provides e, LocalHapticFeedback provides haptics) {
             Box(Modifier.fillMaxSize().background(Sar.c.bg)) {
                 AnimatedContent(db.settings.onboarded, label = "onboard") { done ->
                     if (done) Shell() else OnboardingScreen()
@@ -153,13 +168,13 @@ fun Shell() {
             Modifier.align(Alignment.BottomCenter).navigationBarsPadding().padding(bottom = if (atRoot) 84.dp else 12.dp, start = 12.dp, end = 12.dp),
         ) { data ->
             Snackbar(
+                data, shape = RoundedCornerShape(14.dp),
                 containerColor = Sar.c.surfaceHi, contentColor = Sar.c.text, actionColor = Sar.c.accent,
-                shape = RoundedCornerShape(14.dp),
-                action = data.visuals.actionLabel?.let { label -> { TextButton(onClick = { data.performAction() }) { Text(label.uppercase(), color = Sar.c.accent, style = Sar.t.label) } } },
-            ) { Text(data.visuals.message, style = Sar.t.small) }
+            )
         }
         AnimatedVisibility(e.bus.paletteOpen, enter = fadeIn(), exit = fadeOut()) { CommandPalette() }
     }
+    e.bus.sharedText?.let { text -> SharedSheet(text) { e.bus.sharedText = null } }
 }
 
 @Composable

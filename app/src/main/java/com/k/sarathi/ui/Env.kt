@@ -65,6 +65,8 @@ class UiBus {
     var listenOnOpen by mutableStateOf(false)
     var addExpenseOnOpen by mutableStateOf(false)
     var journalPrompt by mutableStateOf<String?>(null)
+    /** Text shared from another app, waiting for the user to choose what to do. */
+    var sharedText by mutableStateOf<String?>(null)
 }
 
 /** Tabs (bottom bar roots) and a stack of pushed screens on top of them. */
