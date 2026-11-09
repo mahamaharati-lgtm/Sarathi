@@ -1,0 +1,902 @@
+[
+ {
+  "ref": "2.3",
+  "ch": 2,
+  "v": 3,
+  "speaker": "Krishna",
+  "sa": "क्लैब्यं मा स्म गमः पार्थ नैतत्त्वय्युपपद्यते ।\nक्षुद्रं हृदयदौर्बल्यं त्यक्त्वोत्तिष्ठ परन्तप ॥",
+  "iast": "klaibyaṃ mā sma gamaḥ pārtha naitattvayyupapadyate |\nkṣudraṃ hṛdayadaurbalyaṃ tyaktvottiṣṭha parantapa ||",
+  "en": "Don't give in to this weakness — it doesn't suit you. Shake off this small-hearted fear and stand up, warrior."
+ },
+ {
+  "ref": "2.7",
+  "ch": 2,
+  "v": 7,
+  "speaker": "Arjuna",
+  "sa": "कार्पण्यदोषोपहतस्वभावः\nपृच्छामि त्वां धर्मसम्मूढचेताः ।\nयच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे\nशिष्यस्तेऽहं शाधि मां त्वां प्रपन्नम् ॥",
+  "iast": "kārpaṇyadoṣopahatasvabhāvaḥ\npṛcchāmi tvāṃ dharmasammūḍhacetāḥ |\nyacchreyaḥ syānniścitaṃ brūhi tanme\nśiṣyaste'haṃ śādhi māṃ tvāṃ prapannam ||",
+  "en": "My mind is clouded and I can't see what is right. I am your student — guide me to what is truly best."
+ },
+ {
+  "ref": "2.11",
+  "ch": 2,
+  "v": 11,
+  "speaker": "Krishna",
+  "sa": "श्रीभगवानुवाच ।\nअशोच्यानन्वशोचस्त्वं प्रज्ञावादांश्च भाषसे ।\nगतासूनगतासूंश्च नानुशोचन्ति पण्डिताः ॥",
+  "iast": "śrībhagavānuvāca |\naśocyānanvaśocastvaṃ prajñāvādāṃśca bhāṣase |\ngatāsūnagatāsūṃśca nānuśocanti paṇḍitāḥ ||",
+  "en": "You grieve for what doesn't deserve grief, even while speaking words of wisdom. The wise mourn neither the living nor the dead."
+ },
+ {
+  "ref": "2.13",
+  "ch": 2,
+  "v": 13,
+  "speaker": "Krishna",
+  "sa": "देहिनोऽस्मिन्यथा देहे कौमारं यौवनं जरा ।\nतथा देहान्तरप्राप्तिर्धीरस्तत्र न मुह्यति ॥",
+  "iast": "dehino'sminyathā dehe kaumāraṃ yauvanaṃ jarā |\ntathā dehāntaraprāptirdhīrastatra na muhyati ||",
+  "en": "As the self passes through childhood, youth and old age in this body, it passes on to another body. The steady are not shaken by this."
+ },
+ {
+  "ref": "2.14",
+  "ch": 2,
+  "v": 14,
+  "speaker": "Krishna",
+  "sa": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः ।\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ॥",
+  "iast": "mātrāsparśāstu kaunteya śītoṣṇasukhaduḥkhadāḥ |\nāgamāpāyino'nityāstāṃstitikṣasva bhārata ||",
+  "en": "Heat and cold, pleasure and pain arrive and leave — none of them last. Learn to endure them patiently."
+ },
+ {
+  "ref": "2.15",
+  "ch": 2,
+  "v": 15,
+  "speaker": "Krishna",
+  "sa": "यं हि न व्यथयन्त्येते पुरुषं पुरुषर्षभ ।\nसमदुःखसुखं धीरं सोऽमृतत्वाय कल्पते ॥",
+  "iast": "yaṃ hi na vyathayantyete puruṣaṃ puruṣarṣabha |\nsamaduḥkhasukhaṃ dhīraṃ so'mṛtatvāya kalpate ||",
+  "en": "The one who stays balanced in pleasure and pain, undisturbed by either, is ready for the deathless."
+ },
+ {
+  "ref": "2.20",
+  "ch": 2,
+  "v": 20,
+  "speaker": "Krishna",
+  "sa": "न जायते म्रियते वा कदाचिन्\nनायं भूत्वा भविता वा न भूयः ।\nअजो नित्यः शाश्वतोऽयं पुराणो\nन हन्यते हन्यमाने शरीरे ॥",
+  "iast": "na jāyate mriyate vā kadācin\nnāyaṃ bhūtvā bhavitā vā na bhūyaḥ |\najo nityaḥ śāśvato'yaṃ purāṇo\nna hanyate hanyamāne śarīre ||",
+  "en": "The self is never born and never dies. Unborn, eternal and ancient, it is not destroyed when the body is."
+ },
+ {
+  "ref": "2.22",
+  "ch": 2,
+  "v": 22,
+  "speaker": "Krishna",
+  "sa": "वासांसि जीर्णानि यथा विहाय\nनवानि गृह्णाति नरोऽपराणि ।\nतथा शरीराणि विहाय जीर्णा-\nन्यन्यानि संयाति नवानि देही ॥",
+  "iast": "vāsāṃsi jīrṇāni yathā vihāya\nnavāni gṛhṇāti naro'parāṇi |\ntathā śarīrāṇi vihāya jīrṇā-\nnyanyāni saṃyāti navāni dehī ||",
+  "en": "As a person drops worn-out clothes and puts on new ones, the self leaves worn-out bodies and takes on new ones."
+ },
+ {
+  "ref": "2.23",
+  "ch": 2,
+  "v": 23,
+  "speaker": "Krishna",
+  "sa": "नैनं छिन्दन्ति शस्त्राणि नैनं दहति पावकः ।\nन चैनं क्लेदयन्त्यापो न शोषयति मारुतः ॥",
+  "iast": "nainaṃ chindanti śastrāṇi nainaṃ dahati pāvakaḥ |\nna cainaṃ kledayantyāpo na śoṣayati mārutaḥ ||",
+  "en": "Weapons cannot cut it, fire cannot burn it, water cannot wet it, and wind cannot dry it."
+ },
+ {
+  "ref": "2.27",
+  "ch": 2,
+  "v": 27,
+  "speaker": "Krishna",
+  "sa": "जातस्य हि ध्रुवो मृत्युर्ध्रुवं जन्म मृतस्य च ।\nतस्मादपरिहार्येऽर्थे न त्वं शोचितुमर्हसि ॥",
+  "iast": "jātasya hi dhruvo mṛtyurdhruvaṃ janma mṛtasya ca |\ntasmādaparihārye'rthe na tvaṃ śocitumarhasi ||",
+  "en": "Death is certain for the born, and birth for the dead. Don't grieve over what cannot be avoided."
+ },
+ {
+  "ref": "2.31",
+  "ch": 2,
+  "v": 31,
+  "speaker": "Krishna",
+  "sa": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि ।\nधर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते ॥",
+  "iast": "svadharmamapi cāvekṣya na vikampitumarhasi |\ndharmyāddhi yuddhācchreyo'nyatkṣatriyasya na vidyate ||",
+  "en": "Look at your own duty and do not waver. For a protector, nothing is higher than a righteous fight."
+ },
+ {
+  "ref": "2.33",
+  "ch": 2,
+  "v": 33,
+  "speaker": "Krishna",
+  "sa": "अथ चेत्त्वमिमं धर्म्यं संग्रामं न करिष्यसि ।\nततः स्वधर्मं कीर्तिं च हित्वा पापमवाप्स्यसि ॥",
+  "iast": "atha cettvamimaṃ dharmyaṃ saṃgrāmaṃ na kariṣyasi |\ntataḥ svadharmaṃ kīrtiṃ ca hitvā pāpamavāpsyasi ||",
+  "en": "If you walk away from this rightful battle, you abandon your duty and your honor, and you earn only regret."
+ },
+ {
+  "ref": "2.38",
+  "ch": 2,
+  "v": 38,
+  "speaker": "Krishna",
+  "sa": "सुखदुःखे समे कृत्वा लाभालाभौ जयाजयौ ।\nततो युद्धाय युज्यस्व नैवं पापमवाप्स्यसि ॥",
+  "iast": "sukhaduḥkhe same kṛtvā lābhālābhau jayājayau |\ntato yuddhāya yujyasva naivaṃ pāpamavāpsyasi ||",
+  "en": "Treat pleasure and pain, gain and loss, victory and defeat alike — then fight. Acting this way, you do no wrong."
+ },
+ {
+  "ref": "2.40",
+  "ch": 2,
+  "v": 40,
+  "speaker": "Krishna",
+  "sa": "नेहाभिक्रमनाशोऽस्ति प्रत्यवायो न विद्यते ।\nस्वल्पमप्यस्य धर्मस्य त्रायते महतो भयात् ॥",
+  "iast": "nehābhikramanāśo'sti pratyavāyo na vidyate |\nsvalpamapyasya dharmasya trāyate mahato bhayāt ||",
+  "en": "On this path no effort is ever wasted and no step is ever lost. Even a little of this practice shields you from great fear."
+ },
+ {
+  "ref": "2.47",
+  "ch": 2,
+  "v": 47,
+  "speaker": "Krishna",
+  "sa": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
+  "iast": "karmaṇyevādhikāraste mā phaleṣu kadācana |\nmā karmaphalaheturbhūrmā te saṅgo'stvakarmaṇi ||",
+  "en": "Your right is to the work alone, never to its results. Don't make results your motive — and don't cling to doing nothing."
+ },
+ {
+  "ref": "2.48",
+  "ch": 2,
+  "v": 48,
+  "speaker": "Krishna",
+  "sa": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥",
+  "iast": "yogasthaḥ kuru karmāṇi saṅgaṃ tyaktvā dhanañjaya |\nsiddhyasiddhyoḥ samo bhūtvā samatvaṃ yoga ucyate ||",
+  "en": "Anchored in balance, do your work and drop attachment. Staying even in success and failure — that evenness is yoga."
+ },
+ {
+  "ref": "2.50",
+  "ch": 2,
+  "v": 50,
+  "speaker": "Krishna",
+  "sa": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते ।\nतस्माद्योगाय युज्यस्व योगः कर्मसु कौशलम् ॥",
+  "iast": "buddhiyukto jahātīha ubhe sukṛtaduṣkṛte |\ntasmādyogāya yujyasva yogaḥ karmasu kauśalam ||",
+  "en": "One who acts with clear understanding rises above both good and bad outcomes. So commit to yoga — yoga is skill in action."
+ },
+ {
+  "ref": "2.55",
+  "ch": 2,
+  "v": 55,
+  "speaker": "Krishna",
+  "sa": "श्रीभगवानुवाच ।\nप्रजहाति यदा कामान्सर्वान्पार्थ मनोगतान् ।\nआत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ॥",
+  "iast": "śrībhagavānuvāca |\nprajahāti yadā kāmānsarvānpārtha manogatān |\nātmanyevātmanā tuṣṭaḥ sthitaprajñastadocyate ||",
+  "en": "When a person lets go of every craving of the mind and is content in the self alone, they are called steady in wisdom."
+ },
+ {
+  "ref": "2.56",
+  "ch": 2,
+  "v": 56,
+  "speaker": "Krishna",
+  "sa": "दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः ।\nवीतरागभयक्रोधः स्थितधीर्मुनिरुच्यते ॥",
+  "iast": "duḥkheṣvanudvignamanāḥ sukheṣu vigataspṛhaḥ |\nvītarāgabhayakrodhaḥ sthitadhīrmunirucyate ||",
+  "en": "Unshaken by sorrow, not chasing pleasure, free from desire, fear and anger — such a person is a sage of steady mind."
+ },
+ {
+  "ref": "2.62",
+  "ch": 2,
+  "v": 62,
+  "speaker": "Krishna",
+  "sa": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते ।\nसङ्गात्सञ्जायते कामः कामात्क्रोधोऽभिजायते ॥",
+  "iast": "dhyāyato viṣayānpuṃsaḥ saṅgasteṣūpajāyate |\nsaṅgātsañjāyate kāmaḥ kāmātkrodho'bhijāyate ||",
+  "en": "Dwelling on objects breeds attachment; attachment breeds desire; and from blocked desire, anger is born."
+ },
+ {
+  "ref": "2.63",
+  "ch": 2,
+  "v": 63,
+  "speaker": "Krishna",
+  "sa": "क्रोधाद्भवति सम्मोहः सम्मोहात्स्मृतिविभ्रमः ।\nस्मृतिभ्रंशाद् बुद्धिनाशो बुद्धिनाशात्प्रणश्यति ॥",
+  "iast": "krodhādbhavati sammohaḥ sammohātsmṛtivibhramaḥ |\nsmṛtibhraṃśād buddhināśo buddhināśātpraṇaśyati ||",
+  "en": "Anger clouds judgment, clouded judgment erases memory, lost memory wrecks reason — and without reason, a person falls."
+ },
+ {
+  "ref": "2.70",
+  "ch": 2,
+  "v": 70,
+  "speaker": "Krishna",
+  "sa": "आपूर्यमाणमचलप्रतिष्ठं\nसमुद्रमापः प्रविशन्ति यद्वत् ।\nतद्वत्कामा यं प्रविशन्ति सर्वे\nस शान्तिमाप्नोति न कामकामी ॥",
+  "iast": "āpūryamāṇamacalapratiṣṭhaṃ\nsamudramāpaḥ praviśanti yadvat |\ntadvatkāmā yaṃ praviśanti sarve\nsa śāntimāpnoti na kāmakāmī ||",
+  "en": "Like the ocean that stays still while rivers pour in, the one who absorbs desires without being moved finds peace — not the one who chases them."
+ },
+ {
+  "ref": "3.5",
+  "ch": 3,
+  "v": 5,
+  "speaker": "Krishna",
+  "sa": "न हि कश्चित्क्षणमपि जातु तिष्ठत्यकर्मकृत् ।\nकार्यते ह्यवशः कर्म सर्वः प्रकृतिजैर्गुणैः ॥",
+  "iast": "na hi kaścitkṣaṇamapi jātu tiṣṭhatyakarmakṛt |\nkāryate hyavaśaḥ karma sarvaḥ prakṛtijairguṇaiḥ ||",
+  "en": "No one can stay without action even for a moment. Nature itself drives everyone to act."
+ },
+ {
+  "ref": "3.8",
+  "ch": 3,
+  "v": 8,
+  "speaker": "Krishna",
+  "sa": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः ।\nशरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः ॥",
+  "iast": "niyataṃ kuru karma tvaṃ karma jyāyo hyakarmaṇaḥ |\nśarīrayātrāpi ca te na prasiddhyedakarmaṇaḥ ||",
+  "en": "Do the work that is yours to do; action is better than inaction. Even keeping the body alive takes action."
+ },
+ {
+  "ref": "3.9",
+  "ch": 3,
+  "v": 9,
+  "speaker": "Krishna",
+  "sa": "यज्ञार्थात्कर्मणोऽन्यत्र लोकोऽयं कर्मबन्धनः ।\nतदर्थं कर्म कौन्तेय मुक्तसङ्गः समाचर ॥",
+  "iast": "yajñārthātkarmaṇo'nyatra loko'yaṃ karmabandhanaḥ |\ntadarthaṃ karma kaunteya muktasaṅgaḥ samācara ||",
+  "en": "Work done only for yourself binds you. Work offered as service sets you free — so act without attachment."
+ },
+ {
+  "ref": "3.16",
+  "ch": 3,
+  "v": 16,
+  "speaker": "Krishna",
+  "sa": "एवं प्रवर्तितं चक्रं नानुवर्तयतीह यः ।\nअघायुरिन्द्रियारामो मोघं पार्थ स जीवति ॥",
+  "iast": "evaṃ pravartitaṃ cakraṃ nānuvartayatīha yaḥ |\naghāyurindriyārāmo moghaṃ pārtha sa jīvati ||",
+  "en": "Whoever refuses to turn the wheel of giving and receiving that sustains the world lives in vain, lost in the senses."
+ },
+ {
+  "ref": "3.19",
+  "ch": 3,
+  "v": 19,
+  "speaker": "Krishna",
+  "sa": "तस्मादसक्तः सततं कार्यं कर्म समाचर ।\nअसक्तो ह्याचरन्कर्म परमाप्नोति पूरुषः ॥",
+  "iast": "tasmādasaktaḥ satataṃ kāryaṃ karma samācara |\nasakto hyācarankarma paramāpnoti pūruṣaḥ ||",
+  "en": "So do your duty steadily, without attachment. Working without attachment, a person reaches the highest."
+ },
+ {
+  "ref": "3.21",
+  "ch": 3,
+  "v": 21,
+  "speaker": "Krishna",
+  "sa": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः ।\nस यत्प्रमाणं कुरुते लोकस्तदनुवर्तते ॥",
+  "iast": "yadyadācarati śreṣṭhastattadevetaro janaḥ |\nsa yatpramāṇaṃ kurute lokastadanuvartate ||",
+  "en": "Whatever a leader does, others follow. The standard they set is the one the world lives by."
+ },
+ {
+  "ref": "3.25",
+  "ch": 3,
+  "v": 25,
+  "speaker": "Krishna",
+  "sa": "सक्ताः कर्मण्यविद्वांसो यथा कुर्वन्ति भारत ।\nकुर्याद्विद्वांस्तथासक्तश्चिकीर्षुर्लोकसंग्रहम् ॥",
+  "iast": "saktāḥ karmaṇyavidvāṃso yathā kurvanti bhārata |\nkuryādvidvāṃstathāsaktaścikīrṣurlokasaṃgraham ||",
+  "en": "The unwise work out of attachment; the wise should work just as hard, but without attachment, for the good of the world."
+ },
+ {
+  "ref": "3.27",
+  "ch": 3,
+  "v": 27,
+  "speaker": "Krishna",
+  "sa": "प्रकृतेः क्रियमाणानि गुणैः कर्माणि सर्वशः ।\nअहङ्कारविमूढात्मा कर्ताहमिति मन्यते ॥",
+  "iast": "prakṛteḥ kriyamāṇāni guṇaiḥ karmāṇi sarvaśaḥ |\nahaṅkāravimūḍhātmā kartāhamiti manyate ||",
+  "en": "All actions are carried out by the forces of nature, but the ego-clouded mind thinks, \"I am the doer.\""
+ },
+ {
+  "ref": "3.30",
+  "ch": 3,
+  "v": 30,
+  "speaker": "Krishna",
+  "sa": "मयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा ।\nनिराशीर्निर्ममो भूत्वा युध्यस्व विगतज्वरः ॥",
+  "iast": "mayi sarvāṇi karmāṇi saṃnyasyādhyātmacetasā |\nnirāśīrnirmamo bhūtvā yudhyasva vigatajvaraḥ ||",
+  "en": "Offer all your actions to me, keep your mind on the self, drop hope and possessiveness, and fight without inner fever."
+ },
+ {
+  "ref": "3.35",
+  "ch": 3,
+  "v": 35,
+  "speaker": "Krishna",
+  "sa": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् ।\nस्वधर्मे निधनं श्रेयः परधर्मो भयावहः ॥",
+  "iast": "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt |\nsvadharme nidhanaṃ śreyaḥ paradharmo bhayāvahaḥ ||",
+  "en": "Better your own path walked imperfectly than another's walked perfectly. Another's path is full of danger."
+ },
+ {
+  "ref": "3.37",
+  "ch": 3,
+  "v": 37,
+  "speaker": "Krishna",
+  "sa": "श्रीभगवानुवाच ।\nकाम एष क्रोध एष रजोगुणसमुद्भवः ।\nमहाशनो महापाप्मा विद्ध्येनमिह वैरिणम् ॥",
+  "iast": "śrībhagavānuvāca |\nkāma eṣa krodha eṣa rajoguṇasamudbhavaḥ |\nmahāśano mahāpāpmā viddhyenamiha vairiṇam ||",
+  "en": "It is desire, it is anger, born of restless passion — all-devouring and destructive. Know it as the enemy here."
+ },
+ {
+  "ref": "3.43",
+  "ch": 3,
+  "v": 43,
+  "speaker": "Krishna",
+  "sa": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानमात्मना ।\nजहि शत्रुं महाबाहो कामरूपं दुरासदम् ॥",
+  "iast": "evaṃ buddheḥ paraṃ buddhvā saṃstabhyātmānamātmanā |\njahi śatruṃ mahābāho kāmarūpaṃ durāsadam ||",
+  "en": "Knowing the self is higher than the intellect, steady the mind with the self and defeat that slippery enemy called desire."
+ },
+ {
+  "ref": "4.7",
+  "ch": 4,
+  "v": 7,
+  "speaker": "Krishna",
+  "sa": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत ।\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥",
+  "iast": "yadā yadā hi dharmasya glānirbhavati bhārata |\nabhyutthānamadharmasya tadātmānaṃ sṛjāmyaham ||",
+  "en": "Whenever righteousness declines and wrongdoing rises, I bring myself forth."
+ },
+ {
+  "ref": "4.8",
+  "ch": 4,
+  "v": 8,
+  "speaker": "Krishna",
+  "sa": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् ।\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥",
+  "iast": "paritrāṇāya sādhūnāṃ vināśāya ca duṣkṛtām |\ndharmasaṃsthāpanārthāya sambhavāmi yuge yuge ||",
+  "en": "To protect the good, to end wrongdoing and to restore righteousness, I appear age after age."
+ },
+ {
+  "ref": "4.11",
+  "ch": 4,
+  "v": 11,
+  "speaker": "Krishna",
+  "sa": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम् ।\nमम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः ॥",
+  "iast": "ye yathā māṃ prapadyante tāṃstathaiva bhajāmyaham |\nmama vartmānuvartante manuṣyāḥ pārtha sarvaśaḥ ||",
+  "en": "However people come to me, I receive them in that same way. Everyone walks my path in their own way."
+ },
+ {
+  "ref": "4.18",
+  "ch": 4,
+  "v": 18,
+  "speaker": "Krishna",
+  "sa": "कर्मण्यकर्म यः पश्येदकर्मणि च कर्म यः ।\nस बुद्धिमान्मनुष्येषु स युक्तः कृत्स्नकर्मकृत् ॥",
+  "iast": "karmaṇyakarma yaḥ paśyedakarmaṇi ca karma yaḥ |\nsa buddhimānmanuṣyeṣu sa yuktaḥ kṛtsnakarmakṛt ||",
+  "en": "One who sees stillness in action and action in stillness is truly wise — a yogi who has done all there is to do."
+ },
+ {
+  "ref": "4.20",
+  "ch": 4,
+  "v": 20,
+  "speaker": "Krishna",
+  "sa": "त्यक्त्वा कर्मफलासङ्गं नित्यतृप्तो निराश्रयः ।\nकर्मण्यभिप्रवृत्तोऽपि नैव किञ्चित्करोति सः ॥",
+  "iast": "tyaktvā karmaphalāsaṅgaṃ nityatṛpto nirāśrayaḥ |\nkarmaṇyabhipravṛtto'pi naiva kiñcitkaroti saḥ ||",
+  "en": "Letting go of attachment to results, always content and depending on nothing, such a person does nothing at all even while fully at work."
+ },
+ {
+  "ref": "4.34",
+  "ch": 4,
+  "v": 34,
+  "speaker": "Krishna",
+  "sa": "तद्विद्धि प्रणिपातेन परिप्रश्नेन सेवया ।\nउपदेक्ष्यन्ति ते ज्ञानं ज्ञानिनस्तत्त्वदर्शिनः ॥",
+  "iast": "tadviddhi praṇipātena paripraśnena sevayā |\nupadekṣyanti te jñānaṃ jñāninastattvadarśinaḥ ||",
+  "en": "Learn this through humility, sincere questions and service. Those who have seen the truth will teach you."
+ },
+ {
+  "ref": "4.38",
+  "ch": 4,
+  "v": 38,
+  "speaker": "Krishna",
+  "sa": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते ।\nतत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति ॥",
+  "iast": "na hi jñānena sadṛśaṃ pavitramiha vidyate |\ntatsvayaṃ yogasaṃsiddhaḥ kālenātmani vindati ||",
+  "en": "Nothing in this world purifies like knowledge. One perfected in yoga discovers it within, in time."
+ },
+ {
+  "ref": "4.39",
+  "ch": 4,
+  "v": 39,
+  "speaker": "Krishna",
+  "sa": "श्रद्धावाँल्लभते ज्ञानं तत्परः संयतेन्द्रियः ।\nज्ञानं लब्ध्वा परां शान्तिमचिरेणाधिगच्छति ॥",
+  "iast": "śraddhāvā~llabhate jñānaṃ tatparaḥ saṃyatendriyaḥ |\njñānaṃ labdhvā parāṃ śāntimacireṇādhigacchati ||",
+  "en": "The one with faith, devoted and master of the senses, gains knowledge — and with it, supreme peace soon follows."
+ },
+ {
+  "ref": "4.40",
+  "ch": 4,
+  "v": 40,
+  "speaker": "Krishna",
+  "sa": "अज्ञश्चाश्रद्दधानश्च संशयात्मा विनश्यति ।\nनायं लोकोऽस्ति न परो न सुखं संशयात्मनः ॥",
+  "iast": "ajñaścāśraddadhānaśca saṃśayātmā vinaśyati |\nnāyaṃ loko'sti na paro na sukhaṃ saṃśayātmanaḥ ||",
+  "en": "The ignorant, faithless doubter is ruined. For the doubting soul there is no happiness in this world or the next."
+ },
+ {
+  "ref": "5.7",
+  "ch": 5,
+  "v": 7,
+  "speaker": "Krishna",
+  "sa": "योगयुक्तो विशुद्धात्मा विजितात्मा जितेन्द्रियः ।\nसर्वभूतात्मभूतात्मा कुर्वन्नपि न लिप्यते ॥",
+  "iast": "yogayukto viśuddhātmā vijitātmā jitendriyaḥ |\nsarvabhūtātmabhūtātmā kurvannapi na lipyate ||",
+  "en": "Disciplined, pure, master of mind and senses, seeing their own self in all beings — such a person stays untouched even while acting."
+ },
+ {
+  "ref": "5.10",
+  "ch": 5,
+  "v": 10,
+  "speaker": "Krishna",
+  "sa": "ब्रह्मण्याधाय कर्माणि सङ्गं त्यक्त्वा करोति यः ।\nलिप्यते न स पापेन पद्मपत्रमिवाम्भसा ॥",
+  "iast": "brahmaṇyādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ |\nlipyate na sa pāpena padmapatramivāmbhasā ||",
+  "en": "Offering actions to the infinite and dropping attachment, one is untouched by wrong, as a lotus leaf is untouched by water."
+ },
+ {
+  "ref": "5.18",
+  "ch": 5,
+  "v": 18,
+  "speaker": "Krishna",
+  "sa": "विद्याविनयसम्पन्ने ब्राह्मणे गवि हस्तिनि ।\nशुनि चैव श्वपाके च पण्डिताः समदर्शिनः ॥",
+  "iast": "vidyāvinayasampanne brāhmaṇe gavi hastini |\nśuni caiva śvapāke ca paṇḍitāḥ samadarśinaḥ ||",
+  "en": "The wise see the same essence in a learned scholar, a cow, an elephant, a dog and an outcast."
+ },
+ {
+  "ref": "5.20",
+  "ch": 5,
+  "v": 20,
+  "speaker": "Krishna",
+  "sa": "न प्रहृष्येत्प्रियं प्राप्य नोद्विजेत्प्राप्य चाप्रियम् ।\nस्थिरबुद्धिरसम्मूढो ब्रह्मविद् ब्रह्मणि स्थितः ॥",
+  "iast": "na prahṛṣyetpriyaṃ prāpya nodvijetprāpya cāpriyam |\nsthirabuddhirasammūḍho brahmavid brahmaṇi sthitaḥ ||",
+  "en": "Don't rejoice too much at the pleasant or sink at the unpleasant. Steady and clear, such a knower rests in the infinite."
+ },
+ {
+  "ref": "5.22",
+  "ch": 5,
+  "v": 22,
+  "speaker": "Krishna",
+  "sa": "ये हि संस्पर्शजा भोगा दुःखयोनय एव ते ।\nआद्यन्तवन्तः कौन्तेय न तेषु रमते बुधः ॥",
+  "iast": "ye hi saṃsparśajā bhogā duḥkhayonaya eva te |\nādyantavantaḥ kaunteya na teṣu ramate budhaḥ ||",
+  "en": "Pleasures born of sense contact are wombs of sorrow — they begin and they end. The wise find no joy in them."
+ },
+ {
+  "ref": "5.29",
+  "ch": 5,
+  "v": 29,
+  "speaker": "Krishna",
+  "sa": "भोक्तारं यज्ञतपसां सर्वलोकमहेश्वरम् ।\nसुहृदं सर्वभूतानां ज्ञात्वा मां शान्तिमृच्छति ॥",
+  "iast": "bhoktāraṃ yajñatapasāṃ sarvalokamaheśvaram |\nsuhṛdaṃ sarvabhūtānāṃ jñātvā māṃ śāntimṛcchati ||",
+  "en": "Knowing me as the receiver of every offering and effort, lord of all worlds and friend of every being, one finds peace."
+ },
+ {
+  "ref": "6.5",
+  "ch": 6,
+  "v": 5,
+  "speaker": "Krishna",
+  "sa": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् ।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥",
+  "iast": "uddharedātmanātmānaṃ nātmānamavasādayet |\nātmaiva hyātmano bandhurātmaiva ripurātmanaḥ ||",
+  "en": "Lift yourself up by your own effort; never drag yourself down. You are your own friend and your own enemy."
+ },
+ {
+  "ref": "6.6",
+  "ch": 6,
+  "v": 6,
+  "speaker": "Krishna",
+  "sa": "बन्धुरात्मात्मनस्तस्य येनात्मैवात्मना जितः ।\nअनात्मनस्तु शत्रुत्वे वर्तेतात्मैव शत्रुवत् ॥",
+  "iast": "bandhurātmātmanastasya yenātmaivātmanā jitaḥ |\nanātmanastu śatrutve vartetātmaiva śatruvat ||",
+  "en": "For one who has conquered the mind, the mind is the best friend. For one who hasn't, it behaves like an enemy."
+ },
+ {
+  "ref": "6.7",
+  "ch": 6,
+  "v": 7,
+  "speaker": "Krishna",
+  "sa": "जितात्मनः प्रशान्तस्य परमात्मा समाहितः ।\nशीतोष्णसुखदुःखेषु तथा मानापमानयोः ॥",
+  "iast": "jitātmanaḥ praśāntasya paramātmā samāhitaḥ |\nśītoṣṇasukhaduḥkheṣu tathā mānāpamānayoḥ ||",
+  "en": "One who has mastered the self stays calm and centered through cold and heat, pleasure and pain, honor and insult."
+ },
+ {
+  "ref": "6.16",
+  "ch": 6,
+  "v": 16,
+  "speaker": "Krishna",
+  "sa": "नात्यश्नतस्तु योगोऽस्ति न चैकान्तमनश्नतः ।\nन चातिस्वप्नशीलस्य जाग्रतो नैव चार्जुन ॥",
+  "iast": "nātyaśnatastu yogo'sti na caikāntamanaśnataḥ |\nna cātisvapnaśīlasya jāgrato naiva cārjuna ||",
+  "en": "Yoga isn't for one who overeats or starves, nor for one who oversleeps or never rests."
+ },
+ {
+  "ref": "6.17",
+  "ch": 6,
+  "v": 17,
+  "speaker": "Krishna",
+  "sa": "युक्ताहारविहारस्य युक्तचेष्टस्य कर्मसु ।\nयुक्तस्वप्नावबोधस्य योगो भवति दुःखहा ॥",
+  "iast": "yuktāhāravihārasya yuktaceṣṭasya karmasu |\nyuktasvapnāvabodhasya yogo bhavati duḥkhahā ||",
+  "en": "For one balanced in eating and play, in effort at work, and in sleep and waking, yoga destroys all sorrow."
+ },
+ {
+  "ref": "6.19",
+  "ch": 6,
+  "v": 19,
+  "speaker": "Krishna",
+  "sa": "यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता ।\nयोगिनो यतचित्तस्य युञ्जतो योगमात्मनः ॥",
+  "iast": "yathā dīpo nivātastho neṅgate sopamā smṛtā |\nyogino yatacittasya yuñjato yogamātmanaḥ ||",
+  "en": "Like a lamp in a windless place that does not flicker — so is the disciplined mind of a yogi absorbed in the self."
+ },
+ {
+  "ref": "6.26",
+  "ch": 6,
+  "v": 26,
+  "speaker": "Krishna",
+  "sa": "यतो यतो निश्चरति मनश्चञ्चलमस्थिरम् ।\nततस्ततो नियम्यैतदात्मन्येव वशं नयेत् ॥",
+  "iast": "yato yato niścarati manaścañcalamasthiram |\ntatastato niyamyaitadātmanyeva vaśaṃ nayet ||",
+  "en": "Wherever the restless, wandering mind runs off, pull it back and place it again under the self's control."
+ },
+ {
+  "ref": "6.32",
+  "ch": 6,
+  "v": 32,
+  "speaker": "Krishna",
+  "sa": "आत्मौपम्येन सर्वत्र समं पश्यति योऽर्जुन ।\nसुखं वा यदि वा दुःखं स योगी परमो मतः ॥",
+  "iast": "ātmaupamyena sarvatra samaṃ paśyati yo'rjuna |\nsukhaṃ vā yadi vā duḥkhaṃ sa yogī paramo mataḥ ||",
+  "en": "The highest yogi feels the joy and pain of others as their own, seeing every being as equal to themselves."
+ },
+ {
+  "ref": "6.34",
+  "ch": 6,
+  "v": 34,
+  "speaker": "Arjuna",
+  "sa": "चञ्चलं हि मनः कृष्ण प्रमाथि बलवद् दृढम् ।\nतस्याहं निग्रहं मन्ये वायोरिव सुदुष्करम् ॥",
+  "iast": "cañcalaṃ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham |\ntasyāhaṃ nigrahaṃ manye vāyoriva suduṣkaram ||",
+  "en": "The mind is restless, turbulent, strong and stubborn, Krishna. Controlling it feels as hard as controlling the wind."
+ },
+ {
+  "ref": "6.35",
+  "ch": 6,
+  "v": 35,
+  "speaker": "Krishna",
+  "sa": "श्रीभगवानुवाच ।\nअसंशयं महाबाहो मनो दुर्निग्रहं चलम् ।\nअभ्यासेन तु कौन्तेय वैराग्येण च गृह्यते ॥",
+  "iast": "śrībhagavānuvāca |\nasaṃśayaṃ mahābāho mano durnigrahaṃ calam |\nabhyāsena tu kaunteya vairāgyeṇa ca gṛhyate ||",
+  "en": "No doubt the mind is restless and hard to tame. But with steady practice and detachment, it can be mastered."
+ },
+ {
+  "ref": "6.47",
+  "ch": 6,
+  "v": 47,
+  "speaker": "Krishna",
+  "sa": "योगिनामपि सर्वेषां मद्गतेनान्तरात्मना ।\nश्रद्धावान्भजते यो मां स मे युक्ततमो मतः ॥",
+  "iast": "yogināmapi sarveṣāṃ madgatenāntarātmanā |\nśraddhāvānbhajate yo māṃ sa me yuktatamo mataḥ ||",
+  "en": "Of all yogis, the one who worships me with faith, their inner self absorbed in me, is most united with me."
+ },
+ {
+  "ref": "7.3",
+  "ch": 7,
+  "v": 3,
+  "speaker": "Krishna",
+  "sa": "मनुष्याणां सहस्रेषु कश्चिद्यतति सिद्धये ।\nयततामपि सिद्धानां कश्चिन्मां वेत्ति तत्त्वतः ॥",
+  "iast": "manuṣyāṇāṃ sahasreṣu kaścidyatati siddhaye |\nyatatāmapi siddhānāṃ kaścinmāṃ vetti tattvataḥ ||",
+  "en": "Among thousands, hardly one strives for perfection; and among those who strive, hardly one truly knows me."
+ },
+ {
+  "ref": "7.7",
+  "ch": 7,
+  "v": 7,
+  "speaker": "Krishna",
+  "sa": "मत्तः परतरं नान्यत्किञ्चिदस्ति धनञ्जय ।\nमयि सर्वमिदं प्रोतं सूत्रे मणिगणा इव ॥",
+  "iast": "mattaḥ parataraṃ nānyatkiñcidasti dhanañjaya |\nmayi sarvamidaṃ protaṃ sūtre maṇigaṇā iva ||",
+  "en": "There is nothing higher than me. Everything is strung on me like pearls on a thread."
+ },
+ {
+  "ref": "7.19",
+  "ch": 7,
+  "v": 19,
+  "speaker": "Krishna",
+  "sa": "बहूनां जन्मनामन्ते ज्ञानवान्मां प्रपद्यते ।\nवासुदेवः सर्वमिति स महात्मा सुदुर्लभः ॥",
+  "iast": "bahūnāṃ janmanāmante jñānavānmāṃ prapadyate |\nvāsudevaḥ sarvamiti sa mahātmā sudurlabhaḥ ||",
+  "en": "After many lifetimes, the wise one surrenders to me, seeing the divine in everything. Such a great soul is very rare."
+ },
+ {
+  "ref": "8.5",
+  "ch": 8,
+  "v": 5,
+  "speaker": "Krishna",
+  "sa": "अन्तकाले च मामेव स्मरन्मुक्त्वा कलेवरम् ।\nयः प्रयाति स मद्भावं याति नास्त्यत्र संशयः ॥",
+  "iast": "antakāle ca māmeva smaranmuktvā kalevaram |\nyaḥ prayāti sa madbhāvaṃ yāti nāstyatra saṃśayaḥ ||",
+  "en": "Whoever leaves the body remembering me at the end comes to me — of this there is no doubt."
+ },
+ {
+  "ref": "8.7",
+  "ch": 8,
+  "v": 7,
+  "speaker": "Krishna",
+  "sa": "तस्मात्सर्वेषु कालेषु मामनुस्मर युध्य च ।\nमय्यर्पितमनोबुद्धिर्मामेवैष्यस्यसंशयः (orसंशयम्) ॥",
+  "iast": "tasmātsarveṣu kāleṣu māmanusmara yudhya ca |\nmayyarpitamanobuddhirmāmevaiṣyasyasaṃśayaḥ (orsaṃśayam) ||",
+  "en": "So remember me at all times — and fight. With mind and intellect fixed on me, you will surely come to me."
+ },
+ {
+  "ref": "9.22",
+  "ch": 9,
+  "v": 22,
+  "speaker": "Krishna",
+  "sa": "अनन्याश्चिन्तयन्तो मां ये जनाः पर्युपासते ।\nतेषां नित्याभियुक्तानां योगक्षेमं वहाम्यहम् ॥",
+  "iast": "ananyāścintayanto māṃ ye janāḥ paryupāsate |\nteṣāṃ nityābhiyuktānāṃ yogakṣemaṃ vahāmyaham ||",
+  "en": "To those who think of me alone and stay devoted, I bring what they lack and protect what they have."
+ },
+ {
+  "ref": "9.26",
+  "ch": 9,
+  "v": 26,
+  "speaker": "Krishna",
+  "sa": "पत्रं पुष्पं फलं तोयं यो मे भक्त्या प्रयच्छति ।\nतदहं भक्त्युपहृतमश्नामि प्रयतात्मनः ॥",
+  "iast": "patraṃ puṣpaṃ phalaṃ toyaṃ yo me bhaktyā prayacchati |\ntadahaṃ bhaktyupahṛtamaśnāmi prayatātmanaḥ ||",
+  "en": "Whoever offers me a leaf, a flower, a fruit or a little water with love — that loving gift I accept."
+ },
+ {
+  "ref": "9.27",
+  "ch": 9,
+  "v": 27,
+  "speaker": "Krishna",
+  "sa": "यत्करोषि यदश्नासि यज्जुहोषि ददासि यत् ।\nयत्तपस्यसि कौन्तेय तत्कुरुष्व मदर्पणम् ॥",
+  "iast": "yatkaroṣi yadaśnāsi yajjuhoṣi dadāsi yat |\nyattapasyasi kaunteya tatkuruṣva madarpaṇam ||",
+  "en": "Whatever you do, eat, offer, give or endure — do it as an offering to me."
+ },
+ {
+  "ref": "9.29",
+  "ch": 9,
+  "v": 29,
+  "speaker": "Krishna",
+  "sa": "समोऽहं सर्वभूतेषु न मे द्वेष्योऽस्ति न प्रियः ।\nये भजन्ति तु मां भक्त्या मयि ते तेषु चाप्यहम् ॥",
+  "iast": "samo'haṃ sarvabhūteṣu na me dveṣyo'sti na priyaḥ |\nye bhajanti tu māṃ bhaktyā mayi te teṣu cāpyaham ||",
+  "en": "I am the same toward all beings; no one is hateful or dear to me. But those who worship me with love are in me, and I in them."
+ },
+ {
+  "ref": "9.34",
+  "ch": 9,
+  "v": 34,
+  "speaker": "Krishna",
+  "sa": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु ।\nमामेवैष्यसि युक्त्वैवमात्मानं मत्परायणः ॥",
+  "iast": "manmanā bhava madbhakto madyājī māṃ namaskuru |\nmāmevaiṣyasi yuktvaivamātmānaṃ matparāyaṇaḥ ||",
+  "en": "Fix your mind on me, be devoted to me, worship me, bow to me. Making me your goal, you will come to me."
+ },
+ {
+  "ref": "10.8",
+  "ch": 10,
+  "v": 8,
+  "speaker": "Krishna",
+  "sa": "अहं सर्वस्य प्रभवो मत्तः सर्वं प्रवर्तते ।\nइति मत्वा भजन्ते मां बुधा भावसमन्विताः ॥",
+  "iast": "ahaṃ sarvasya prabhavo mattaḥ sarvaṃ pravartate |\niti matvā bhajante māṃ budhā bhāvasamanvitāḥ ||",
+  "en": "I am the source of everything; from me all things unfold. Knowing this, the wise worship me with deep feeling."
+ },
+ {
+  "ref": "10.20",
+  "ch": 10,
+  "v": 20,
+  "speaker": "Krishna",
+  "sa": "अहमात्मा गुडाकेश सर्वभूताशयस्थितः ।\nअहमादिश्च मध्यं च भूतानामन्त एव च ॥",
+  "iast": "ahamātmā guḍākeśa sarvabhūtāśayasthitaḥ |\nahamādiśca madhyaṃ ca bhūtānāmanta eva ca ||",
+  "en": "I am the self seated in the heart of every being. I am the beginning, the middle and the end of all beings."
+ },
+ {
+  "ref": "10.41",
+  "ch": 10,
+  "v": 41,
+  "speaker": "Krishna",
+  "sa": "यद्यद्विभूतिमत्सत्त्वं श्रीमदूर्जितमेव वा ।\nतत्तदेवावगच्छ त्वं मम तेजोंऽशसम्भवम् ॥",
+  "iast": "yadyadvibhūtimatsattvaṃ śrīmadūrjitameva vā |\ntattadevāvagaccha tvaṃ mama tejoṃ'śasambhavam ||",
+  "en": "Whatever is glorious, beautiful or mighty — know that it springs from a spark of my splendor."
+ },
+ {
+  "ref": "11.32",
+  "ch": 11,
+  "v": 32,
+  "speaker": "Krishna",
+  "sa": "श्रीभगवानुवाच ।\nकालोऽस्मि लोकक्षयकृत्प्रवृद्धो\nलोकान्समाहर्तुमिह प्रवृत्तः ।\nऋतेऽपि त्वां न भविष्यन्ति सर्वे\nयेऽवस्थिताः प्रत्यनीकेषु योधाः ॥",
+  "iast": "śrībhagavānuvāca |\nkālo'smi lokakṣayakṛtpravṛddho\nlokānsamāhartumiha pravṛttaḥ |\nṛte'pi tvāṃ na bhaviṣyanti sarve\nye'vasthitāḥ pratyanīkeṣu yodhāḥ ||",
+  "en": "I am Time, the mighty destroyer of worlds, come to consume. Even without you, these warriors will not survive."
+ },
+ {
+  "ref": "11.33",
+  "ch": 11,
+  "v": 33,
+  "speaker": "Krishna",
+  "sa": "तस्मात्त्वमुत्तिष्ठ यशो लभस्व\nजित्वा शत्रून् भुङ्क्ष्व राज्यं समृद्धम् ।\nमयैवैते निहताः पूर्वमेव\nनिमित्तमात्रं भव सव्यसाचिन् ॥",
+  "iast": "tasmāttvamuttiṣṭha yaśo labhasva\njitvā śatrūn bhuṅkṣva rājyaṃ samṛddham |\nmayaivaite nihatāḥ pūrvameva\nnimittamātraṃ bhava savyasācin ||",
+  "en": "So rise up and win glory. Conquer your enemies and enjoy a thriving kingdom. They are already defeated by me — be merely the instrument."
+ },
+ {
+  "ref": "12.13",
+  "ch": 12,
+  "v": 13,
+  "speaker": "Krishna",
+  "sa": "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च ।\nनिर्ममो निरहङ्कारः समदुःखसुखः क्षमी ॥",
+  "iast": "adveṣṭā sarvabhūtānāṃ maitraḥ karuṇa eva ca |\nnirmamo nirahaṅkāraḥ samaduḥkhasukhaḥ kṣamī ||",
+  "en": "One who hates no being, who is friendly and compassionate, free of \"mine\" and ego, steady in joy and sorrow, and forgiving —"
+ },
+ {
+  "ref": "12.14",
+  "ch": 12,
+  "v": 14,
+  "speaker": "Krishna",
+  "sa": "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः ।\nमय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः ॥",
+  "iast": "santuṣṭaḥ satataṃ yogī yatātmā dṛḍhaniścayaḥ |\nmayyarpitamanobuddhiryo madbhaktaḥ sa me priyaḥ ||",
+  "en": "— always content, self-controlled, firm in resolve, with mind and intellect given to me — that devotee is dear to me."
+ },
+ {
+  "ref": "12.15",
+  "ch": 12,
+  "v": 15,
+  "speaker": "Krishna",
+  "sa": "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः ।\nहर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः ॥",
+  "iast": "yasmānnodvijate loko lokānnodvijate ca yaḥ |\nharṣāmarṣabhayodvegairmukto yaḥ sa ca me priyaḥ ||",
+  "en": "One who disturbs no one and is disturbed by no one, free from elation, envy, fear and anxiety, is dear to me."
+ },
+ {
+  "ref": "12.18",
+  "ch": 12,
+  "v": 18,
+  "speaker": "Krishna",
+  "sa": "समः शत्रौ च मित्रे च तथा मानापमानयोः ।\nशीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः ॥",
+  "iast": "samaḥ śatrau ca mitre ca tathā mānāpamānayoḥ |\nśītoṣṇasukhaduḥkheṣu samaḥ saṅgavivarjitaḥ ||",
+  "en": "Equal to friend and foe, in honor and dishonor, in cold and heat, in pleasure and pain, and free from attachment —"
+ },
+ {
+  "ref": "12.19",
+  "ch": 12,
+  "v": 19,
+  "speaker": "Krishna",
+  "sa": "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित् ।\nअनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः ॥",
+  "iast": "tulyanindāstutirmaunī santuṣṭo yena kenacit |\naniketaḥ sthiramatirbhaktimānme priyo naraḥ ||",
+  "en": "— unmoved by blame or praise, quiet, content with whatever comes, not bound to one place, steady and devoted: that person is dear to me."
+ },
+ {
+  "ref": "13.28",
+  "ch": 13,
+  "v": 28,
+  "speaker": "Krishna",
+  "sa": "समं सर्वेषु भूतेषु तिष्ठन्तं परमेश्वरम् ।\nविनश्यत्स्वविनश्यन्तं यः पश्यति स पश्यति ॥",
+  "iast": "samaṃ sarveṣu bhūteṣu tiṣṭhantaṃ parameśvaram |\nvinaśyatsvavinaśyantaṃ yaḥ paśyati sa paśyati ||",
+  "en": "One who sees the supreme lord dwelling equally in all beings, the undying within the dying, truly sees."
+ },
+ {
+  "ref": "14.24",
+  "ch": 14,
+  "v": 24,
+  "speaker": "Krishna",
+  "sa": "समदुःखसुखः स्वस्थः समलोष्टाश्मकाञ्चनः ।\nतुल्यप्रियाप्रियो धीरस्तुल्यनिन्दात्मसंस्तुतिः ॥",
+  "iast": "samaduḥkhasukhaḥ svasthaḥ samaloṣṭāśmakāñcanaḥ |\ntulyapriyāpriyo dhīrastulyanindātmasaṃstutiḥ ||",
+  "en": "Steady in pain and pleasure, grounded in the self, seeing earth, stone and gold as equal, even toward the pleasant and unpleasant, unmoved by blame or praise — such a person has risen above nature's pull."
+ },
+ {
+  "ref": "15.7",
+  "ch": 15,
+  "v": 7,
+  "speaker": "Krishna",
+  "sa": "ममैवांशो जीवलोके जीवभूतः सनातनः ।\nमनःषष्ठानीन्द्रियाणि प्रकृतिस्थानि कर्षति ॥",
+  "iast": "mamaivāṃśo jīvaloke jīvabhūtaḥ sanātanaḥ |\nmanaḥṣaṣṭhānīndriyāṇi prakṛtisthāni karṣati ||",
+  "en": "An eternal fragment of me becomes the living soul in this world, drawing to itself the mind and the senses that rest in nature."
+ },
+ {
+  "ref": "15.15",
+  "ch": 15,
+  "v": 15,
+  "speaker": "Krishna",
+  "sa": "सर्वस्य चाहं हृदि सन्निविष्टो\nमत्तः स्मृतिर्ज्ञानमपोहनञ्च ।\nवेदैश्च सर्वैरहमेव वेद्यो\nवेदान्तकृद्वेदविदेव चाहम् ॥",
+  "iast": "sarvasya cāhaṃ hṛdi sanniviṣṭo\nmattaḥ smṛtirjñānamapohanañca |\nvedaiśca sarvairahameva vedyo\nvedāntakṛdvedavideva cāham ||",
+  "en": "I am seated in the hearts of all. From me come memory, knowledge and their loss. I am what all the Vedas seek to know."
+ },
+ {
+  "ref": "16.1",
+  "ch": 16,
+  "v": 1,
+  "speaker": "Krishna",
+  "sa": "श्रीभगवानुवाच ।\nअभयं सत्त्वसंशुद्धिर्ज्ञानयोगव्यवस्थितिः ।\nदानं दमश्च यज्ञश्च स्वाध्यायस्तप आर्जवम् ॥",
+  "iast": "śrībhagavānuvāca |\nabhayaṃ sattvasaṃśuddhirjñānayogavyavasthitiḥ |\ndānaṃ damaśca yajñaśca svādhyāyastapa ārjavam ||",
+  "en": "Fearlessness, purity of heart, steadiness in knowledge and discipline, generosity, self-control, study, austerity and honesty —"
+ },
+ {
+  "ref": "16.3",
+  "ch": 16,
+  "v": 3,
+  "speaker": "Krishna",
+  "sa": "तेजः क्षमा धृतिः शौचमद्रोहो नातिमानिता ।\nभवन्ति सम्पदं दैवीमभिजातस्य भारत ॥",
+  "iast": "tejaḥ kṣamā dhṛtiḥ śaucamadroho nātimānitā |\nbhavanti sampadaṃ daivīmabhijātasya bhārata ||",
+  "en": "— radiance, forgiveness, endurance, purity, freedom from malice and from pride: these belong to one born with a divine nature."
+ },
+ {
+  "ref": "16.21",
+  "ch": 16,
+  "v": 21,
+  "speaker": "Krishna",
+  "sa": "त्रिविधं नरकस्येदं द्वारं नाशनमात्मनः ।\nकामः क्रोधस्तथा लोभस्तस्मादेतत्त्रयं त्यजेत् ॥",
+  "iast": "trividhaṃ narakasyedaṃ dvāraṃ nāśanamātmanaḥ |\nkāmaḥ krodhastathā lobhastasmādetattrayaṃ tyajet ||",
+  "en": "Desire, anger and greed are the three gates to self-destruction. Abandon all three."
+ },
+ {
+  "ref": "17.14",
+  "ch": 17,
+  "v": 14,
+  "speaker": "Krishna",
+  "sa": "देवद्विजगुरुप्राज्ञपूजनं शौचमार्जवम् ।\nब्रह्मचर्यमहिंसा च शारीरं तप उच्यते ॥",
+  "iast": "devadvijaguruprājñapūjanaṃ śaucamārjavam |\nbrahmacaryamahiṃsā ca śārīraṃ tapa ucyate ||",
+  "en": "Honoring the divine, the learned, teachers and the wise; cleanliness, honesty, restraint and non-violence — this is discipline of the body."
+ },
+ {
+  "ref": "17.15",
+  "ch": 17,
+  "v": 15,
+  "speaker": "Krishna",
+  "sa": "अनुद्वेगकरं वाक्यं सत्यं प्रियहितं च यत् ।\nस्वाध्यायाभ्यसनं चैव वाङ्मयं तप उच्यते ॥",
+  "iast": "anudvegakaraṃ vākyaṃ satyaṃ priyahitaṃ ca yat |\nsvādhyāyābhyasanaṃ caiva vāṅmayaṃ tapa ucyate ||",
+  "en": "Speech that doesn't wound, that is true, kind and helpful, together with regular study — this is discipline of speech."
+ },
+ {
+  "ref": "17.16",
+  "ch": 17,
+  "v": 16,
+  "speaker": "Krishna",
+  "sa": "मनः प्रसादः सौम्यत्वं मौनमात्मविनिग्रहः ।\nभावसंशुद्धिरित्येतत्तपो मानसमुच्यते ॥",
+  "iast": "manaḥ prasādaḥ saumyatvaṃ maunamātmavinigrahaḥ |\nbhāvasaṃśuddhirityetattapo mānasamucyate ||",
+  "en": "Calmness of mind, gentleness, silence, self-control and purity of intention — this is discipline of the mind."
+ },
+ {
+  "ref": "17.20",
+  "ch": 17,
+  "v": 20,
+  "speaker": "Krishna",
+  "sa": "दातव्यमिति यद्दानं दीयतेऽनुपकारिणे ।\nदेशे काले च पात्रे च तद्दानं सात्त्विकं स्मृतम् ॥",
+  "iast": "dātavyamiti yaddānaṃ dīyate'nupakāriṇe |\ndeśe kāle ca pātre ca taddānaṃ sāttvikaṃ smṛtam ||",
+  "en": "A gift given simply because it is right to give, to someone who cannot repay, at the right place and time, is pure giving."
+ },
+ {
+  "ref": "18.26",
+  "ch": 18,
+  "v": 26,
+  "speaker": "Krishna",
+  "sa": "मुक्तसङ्गोऽनहंवादी धृत्युत्साहसमन्वितः ।\nसिद्ध्यसिद्ध्योर्निर्विकारः कर्ता सात्त्विक उच्यते ॥",
+  "iast": "muktasaṅgo'nahaṃvādī dhṛtyutsāhasamanvitaḥ |\nsiddhyasiddhyornirvikāraḥ kartā sāttvika ucyate ||",
+  "en": "Free from attachment and ego, full of resolve and enthusiasm, unchanged by success or failure — such a doer is called pure."
+ },
+ {
+  "ref": "18.45",
+  "ch": 18,
+  "v": 45,
+  "speaker": "Krishna",
+  "sa": "स्वे स्वे कर्मण्यभिरतः संसिद्धिं लभते नरः ।\nस्वकर्मनिरतः सिद्धिं यथा विन्दति तच्छृणु ॥",
+  "iast": "sve sve karmaṇyabhirataḥ saṃsiddhiṃ labhate naraḥ |\nsvakarmanirataḥ siddhiṃ yathā vindati tacchṛṇu ||",
+  "en": "Devoted to their own work, a person reaches perfection. Hear how, dedicated to their own duty, they attain it."
+ },
+ {
+  "ref": "18.47",
+  "ch": 18,
+  "v": 47,
+  "speaker": "Krishna",
+  "sa": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् ।\nस्वभावनियतं कर्म कुर्वन्नाप्नोति किल्बिषम् ॥",
+  "iast": "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt |\nsvabhāvaniyataṃ karma kurvannāpnoti kilbiṣam ||",
+  "en": "Better your own duty done imperfectly than another's done well. Doing the work your nature calls for, you do no wrong."
+ },
+ {
+  "ref": "18.48",
+  "ch": 18,
+  "v": 48,
+  "speaker": "Krishna",
+  "sa": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत् ।\nसर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः ॥",
+  "iast": "sahajaṃ karma kaunteya sadoṣamapi na tyajet |\nsarvārambhā hi doṣeṇa dhūmenāgnirivāvṛtāḥ ||",
+  "en": "Don't abandon the work you were born for, even if it has flaws. Every undertaking is clouded by some fault, as fire is by smoke."
+ },
+ {
+  "ref": "18.58",
+  "ch": 18,
+  "v": 58,
+  "speaker": "Krishna",
+  "sa": "मच्चित्तः सर्वदुर्गाणि मत्प्रसादात्तरिष्यसि ।\nअथ चेत्त्वमहंकारान्न श्रोष्यसि विनङ्क्ष्यसि ॥",
+  "iast": "maccittaḥ sarvadurgāṇi matprasādāttariṣyasi |\natha cettvamahaṃkārānna śroṣyasi vinaṅkṣyasi ||",
+  "en": "With your mind on me, you will cross every obstacle by my grace. But if out of ego you won't listen, you will be lost."
+ },
+ {
+  "ref": "18.63",
+  "ch": 18,
+  "v": 63,
+  "speaker": "Krishna",
+  "sa": "इति ते ज्ञानमाख्यातं गुह्याद्गुह्यतरं मया ।\nविमृश्यैतदशेषेण यथेच्छसि तथा कुरु ॥",
+  "iast": "iti te jñānamākhyātaṃ guhyādguhyataraṃ mayā |\nvimṛśyaitadaśeṣeṇa yathecchasi tathā kuru ||",
+  "en": "I have given you this wisdom, the most secret of secrets. Reflect on it fully, then act as you choose."
+ },
+ {
+  "ref": "18.65",
+  "ch": 18,
+  "v": 65,
+  "speaker": "Krishna",
+  "sa": "मन्मना भव मद्भक्तो मद्याजी मां नमस्कुरु ।\nमामेवैष्यसि सत्यं ते प्रतिजाने प्रियोऽसि मे ॥",
+  "iast": "manmanā bhava madbhakto madyājī māṃ namaskuru |\nmāmevaiṣyasi satyaṃ te pratijāne priyo'si me ||",
+  "en": "Fix your mind on me, be devoted to me, offer to me, bow to me. You will come to me — I promise you truly, for you are dear to me."
+ },
+ {
+  "ref": "18.66",
+  "ch": 18,
+  "v": 66,
+  "speaker": "Krishna",
+  "sa": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज ।\nअहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥",
+  "iast": "sarvadharmānparityajya māmekaṃ śaraṇaṃ vraja |\nahaṃ tvā sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ ||",
+  "en": "Set aside every other duty and take refuge in me alone. I will free you from all wrongs — do not grieve."
+ },
+ {
+  "ref": "18.78",
+  "ch": 18,
+  "v": 78,
+  "speaker": "Sanjaya",
+  "sa": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः ।\nतत्र श्रीर्विजयो भूतिर्ध्रुवा नीतिर्मतिर्मम ॥",
+  "iast": "yatra yogeśvaraḥ kṛṣṇo yatra pārtho dhanurdharaḥ |\ntatra śrīrvijayo bhūtirdhruvā nītirmatirmama ||",
+  "en": "Wherever there is Krishna, lord of yoga, and Arjuna, the archer, there you will find fortune, victory, prosperity and sound justice — this is my conviction."
+ }
+]
